@@ -1,0 +1,136 @@
+soal
+
+3. syntax dan cara menjalankan javascript
+4. variable
+5. comments
+6. assignment dan comparison
+7. if , if else, switch case didalam js
+8. conditional dalam program itu apa
+9. for, while, do while dalam js
+10. looping dalam program itu apa
+
+
+jawaban 
+
+1. bahasa pemrograman banyak sekali seperti java, javascript, python. tapi yang saya ketahui dan baru paham sekali mengenai javascript. nah untuk java, ini seluruh aplikasi yang berbasos android merupakan 90% berbasis java.
+2. javascript, bahasa pemprograman yang digunakan oleh para pengembang untuk membuat website menjadi lebih dinamis. dan menghadirkan kehidupan pada suatu website sehingga menciptakan interaksi antara situs dan pengguna
+
+3. 
+
+4. variable adalah tempat yang dimana menampung sebuah data memori yang mempunyai nilai dapat berubah ubah dalam proses program. seperti namanya variabel, isi dari variabel dapat berubah dari waktu ke waktu sesuai kebutuhan. nah dalam variabel ada beberapa yang harus diperhatikan seperti nama, nilai dan tipe dara dari variabel. tipe data itu merupakan sesuatu yang akan ditaruh kedadalam variabel. tipe dari variabel ini bisa berupa angka, teks, kondisi true or false, gambar atau apapu  itu.
+the simple as using the keyword var.
+var x = 10; nah untuk angka 10 itu ditetapkan sebagai nilai di variabel. x = itu disebut assignment rather than an equal to. dalam arti, di js x = y yang dimana akan memberikan nilai y ke variabel x.
+rules dalam sebuah variabel
+a. karakter pertama harus berupa huruf, garis bawah atau tanda dolar
+b. karakter dari nama variabel pertama tidak boleh menggunakan angka
+c. nama variabel tidak boleh menggunakan operator matematika atau logikan namanya contohnya 2*, + _
+d. didalam variabel tidak boleh digunakanya simbol seperti contohnya num%, #mynumber
+
+5. comments, comments bertanda garis miring ganda. commentsitu merupakan instruksi dalam programyang "dieksekusi" ketika program dijalankan. setiap kode setelah garis miring ganda //, atau /* dan */ diperlkakukan sebagai komentar dan akan diabaikan, dan tidak di eksekusi.
+
+6. assignment
+  variabelnya tuh
+a. jika x = y maka tetap x =
+b. jika += maka x += y proses pekerjaanya adalah x = x + y
+c. jika -= maka x -= y proses pekerjaanya adalah x  = x - y
+d. jika /= maka x /= y proses pekerjaanya adalah x = x / y
+e. jika *= maka x *= y proses pekerjaanya adalah x = x * y
+f. jika %= ,aka x %= y proses pekerjaanya adalah x = x % y 
+
+operatorlogika dikenal sebagai operator boolean, mengevaluasi dan mengembalikan nilai true or false
+&& returns true, if both operands are true
+|| returns true, if one of the operandsis true
+! returns true, if the operands is false, and false, if the operand is true
+
+  comparison
+   comparison itu merupakan operator perbandingan dalam pernyatan logis yang dimana untuk mengetahui apakah variabel atau nilai berbeda. variabel mendapatkan nilai true or false, misalnya operator sama dengan (==) memeriksa apakah itu nilai operator sama.
+   == equel to
+   === indetical
+   != not equal to
+   !== not identical
+   > greather than
+   >= greatherthan or equal to
+   < less than
+   <= less than or equal to
+
+7. if 
+    ifstatement : jika kita ingin melakukan suatu tindakan yang berbeda dengan kondisi yang berbeda. if digunkan untuk mementukan kode yang ingin dijalankan jika kondisi yang bernilai true.
+if (condition) {
+    statement
+}
+contoh :
+var myNumber1 = 7;
+var myNUmber2 = 10;
+if (myNumber1 > myNumber2) {
+    alert("javascript is easy to learn");
+}
+
+note : alert ("") digunakan untuk menampilakn sebuah peringatan atau informasi. fungsi alert () berada dalam objek window.
+
+else
+ else statement : digunakan untuk mementukan blok kode yang akan dieksekusi jika kondisinya false.
+ dalam arti "else" digunakan js untuk mengeksekusi sesuatujika kondisinya false.
+
+ synatx nya 
+ if (expression) {
+    // executed if condition is true
+ }
+ else {
+    // executed if condition bernilai false
+ }
+
+
+else if statement
+   else if berguna karena memungkinkan untuk mementukan kondisi baru jika kondisi pertama false
+   what keywordis is used to end the "else if" statement?? else {}
+
+switch
+the switch statement can be used to replace?
+multiple if else statement
+  switch ini dilakukan untuk tindakan yang berbeda dengan kondisi yang berbeda.
+syntax nya :
+switch (expression) {
+    case 1:
+    statement
+    break:
+    case 2:
+    statement
+    break;
+    default:
+    statement
+}
+switch ini dievaluasi hanya sekali. nilai ekspresi dibandingkan dengan nilai setiap kasus, jika cocok ada kecocokan maka blok kode tersebut akan dieksekusi
+
+berapa banyak statement "case" yang biasanya digunakan untuk "switch" statement? satu untuk setiap kemungkinan jawaban
+
+8. Conditional statement adalah pemilihan diantara dua pilihan atau lebih atau biasa di sebut if-else
+
+9. for, while, do while dalam javaScript
+konsep for dan while hampir sama karena sama sama berhenti bila bertemu false kalo do while itu berbeda karna dia tetap menjalan kan perintah perulangan jika false sebanyak sekali
+
+the for loop
+
+ for (statement 1, statement 2, statement 3)
+ code block to be executed
+
+ note : 
+ statement 1 dieksekusi sebelum loop (blok kode) dimulai.
+ statement 2 : mendefinisikan kondisi untuk menjalankan loop (blok kode).
+ statement 3 : dieksekusi setiap kali setelah loop (blok kode) dieksekusi.
+
+ the while loop : perulang yang berulang melalui blok kode, tetapi hanya selama kondisinya yang ditentukan bernilai true
+
+ while(condition){
+    code block
+ }
+
+ do while : mengeksekusi blok kode satu kali, sebelum kondisinya benar maka do while ini akan terus mengulagi loop selama kondisinya benar
+
+ syntax :
+ do {
+    code block
+ }
+ while (condition);
+
+
+10. Loop itu dapat mengeksekusi kode berulang kali dan gunaanya itu ketika mau menjalakan kode yang sama berulang kali, menambahkan nilai yang berbeda setiap kali sampai kondisi tercapai.
