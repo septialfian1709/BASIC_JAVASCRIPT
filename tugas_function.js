@@ -26,3 +26,14 @@ function avg(a,b,c){
     console.log (d);
 }
 avg(3,6,9);*/
+
+function main(){
+    var amount = parsenInt(readline(), 10);
+    var rate + parsenIntr(readline(), 10);
+
+    console.log(convert(amount, rate));
+}
+function convert(a, b){
+    var c = a^b
+    return c
+}
