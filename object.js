@@ -5,7 +5,7 @@
 
 // Introducing Objects
 // latihan 1
-var person = {
+/*var person = {
     name: "Septi", age: 18,
     favColor: "green", height: 158
 };
@@ -53,7 +53,6 @@ console.log(p1.name+ "data"+ p2.name+ "menyukai warna"+ p2.favColor)
 
 
 // Object Initialization
-
 // latihan 1
 var John = {
     name: "John",
@@ -69,8 +68,9 @@ console.log(John.age);
 
 
 
-// Adding Methods
 
+
+// Adding Methods
 // latihan 1
 function orang(name, age){
     this.name = name;
@@ -84,6 +84,11 @@ var a = new orang("David", 21)
 a.changeName("John")
 
 console.log(a.name)
+
+
+
+
+
 
 
 // latihan 2 (method)
@@ -114,6 +119,9 @@ var p1 = new makan('berdoa', 'mie');
 p1.changestatus('sedang')
 console.log(p1.status+" makan "+p1.food)
 
+
+
+
 // Latihan 3
 function main() {
     //take flight number and its status
@@ -133,5 +141,18 @@ function Flight(flightNumber, status) {
     this.number = flightNumber;
     this.status = status;
 };
-main()
+main()*/
+
+
+Latihan 08/11/2022
+function person(name, age, color)
+        this.name = name,
+        this.age = age,
+        this.favColor = color,
+        this.changeName = function changeName(name){
+            this.name = name
+         }
+        var p = new person('John', 18, 'blue');
+        console.log(p.name)
+        p.changeName('Asep')
 
